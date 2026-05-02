@@ -11,7 +11,7 @@ const Nav: React.FC = () => {
   return (
     <AppBar position="static">
       <Toolbar>
-        <Typography variant="h6" sx={{ flexGrow: 1 }}>Campus Notifs - T.Vaishnavi (RA2311003020232)</Typography>
+        <Typography variant="h6" sx={{ flexGrow: 1 }}>Campus Notifs</Typography>
         <Button color="inherit" component={Link} to="/">All</Button>
         <Button color="inherit" component={Link} to="/priority">Priority Inbox</Button>
         <Box ml={2}>
